@@ -40,9 +40,14 @@ $letter-space: 1px;
     align-items: center;
   }
 
+  .search-bar i {
+    cursor: pointer;
+  }
+
   input {
     outline: none;
     border: none;
     padding-left: 15px;
+    font-style: italic;
   }
 }
