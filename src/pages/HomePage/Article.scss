@@ -1,0 +1,67 @@
+.proba {
+  display: grid;
+  grid-template-columns: 412px 412px;
+}
+
+.article-wrapper {
+  width: 90%;
+
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  span {
+    font-size: 12px;
+    color: #c69f73;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    color: #424242;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #424242;
+    text-align: left;
+  }
+
+  p {
+    font-size: 11px;
+    font-style: italic;
+    color: #888;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+.container-article {
+  .older-posts {
+    margin: 20px 0 60px 0;
+    text-align: end;
+
+    a {
+      font-size: 11px;
+      font-weight: 700;
+      color: #c69f73;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    i {
+      color: #c69f73;
+      padding-left: 5px;
+    }
+  }
+}
