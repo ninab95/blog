@@ -1,0 +1,29 @@
+.fb-container {
+  margin: 60px 0 0 40px;
+  width: 100%;
+  button {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border: 1px solid #c69f73;
+    background-color: white;
+    padding: 17px 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .fb-image {
+    background-image: url("../../img/facebook.png");
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    p {
+      font-size: 15px;
+      color: white;
+      text-align: center;
+      padding-top: 15px;
+    }
+  }
+}

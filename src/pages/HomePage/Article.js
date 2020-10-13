@@ -4,7 +4,7 @@ import "./Article.scss";
 function Article(props) {
   return (
     <div className="article-wrapper">
-      <img src={require(`../../img/${props.content.picUrl}`)} />
+      <img src={require(`../../img/${props.content.picUrl}`)} alt="content" />
       <span>{props.content.section}</span>
       <h2>{props.content.title}</h2>
       <h4>{props.content.content}</h4>

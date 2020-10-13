@@ -1,0 +1,73 @@
+.categories-container {
+  width: 100%;
+  margin: 40px 0 0 60px;
+  margin-left: 40px;
+  margin-top: 40px;
+  .lifestyle {
+    background-image: url("../../img/lifestyle.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    .inner {
+      background-color: white;
+      width: 50%;
+      margin: auto;
+      align-items: center;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  .travels {
+    background-image: url("../../img/travel.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    .inner {
+      background-color: white;
+      width: 50%;
+      margin: auto;
+      align-items: center;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  button {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border: 1px solid #c69f73;
+    background-color: white;
+    padding: 17px 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 100%;
+  }
+  li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+    padding: 7px 0;
+    border-bottom: 1px dotted #d5d5d5;
+    cursor: pointer;
+  }
+  span {
+    color: #999;
+    padding-left: 4px;
+  }
+}

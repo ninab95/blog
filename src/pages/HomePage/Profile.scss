@@ -1,0 +1,44 @@
+.profile-container {
+  margin: 20px 0 60px 40px;
+  width: 100%;
+
+  button {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border: 1px solid #c69f73;
+    background-color: white;
+    padding: 13px 95px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    width: 100%;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  p {
+    font-size: 14px;
+    color: #424242;
+  }
+
+  span {
+    color: #c69f73;
+    cursor: pointer;
+  }
+
+  .follow {
+    padding: 13px 52px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .icon-wrap i {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+}

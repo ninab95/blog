@@ -1,10 +1,19 @@
 import React from "react";
 import "./RightContainer.scss";
+import Profile from "./Profile";
+import NewsletterContainer from "./NewsletterContainer";
+import Categories from "./Categories";
+import Facebook from "./Facebook";
+import Tags from "./Tags";
 
 function RightContainer() {
   return (
     <div className="container-right">
-      <p>Hello right</p>
+      <Profile />
+      <NewsletterContainer />
+      <Categories />
+      <Facebook />
+      <Tags />
     </div>
   );
 }
