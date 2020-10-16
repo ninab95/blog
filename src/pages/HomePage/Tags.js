@@ -4,7 +4,7 @@ import "./Tags.scss";
 function Tags() {
   return (
     <div className="tag-wrapper">
-      <button>Tah cloud</button>
+      <button>Tag cloud</button>
       <div className="tags">
         <span>Decorations</span>
         <span>Diy</span>

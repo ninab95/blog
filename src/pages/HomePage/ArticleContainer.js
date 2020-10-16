@@ -61,7 +61,7 @@ function ArticleContainer() {
         })}
       </div>
       <div className="older-posts">
-        <a href="#">Older posts </a>
+        <span>Older posts </span>
         <i className="fas fa-angle-double-right"></i>
       </div>
     </div>

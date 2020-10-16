@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./TravelPost.scss";
 
 function TravelPost() {
@@ -17,7 +18,9 @@ function TravelPost() {
           reprehenderit consectetur cupidatat kogi. Et leggings kale chips
           proident chillwave deep origin coffee ea.
         </h4>
+        <Link to="/post">
         <button>Continue Reading</button>
+        </Link>
       </div>
       <div className="comments-share">
         <div className="comments">

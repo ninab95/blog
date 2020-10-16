@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Header.scss";
 
 function Header() {
   return (
     <div className="container">
       <div className="nav-links">
+        <Link to="/" style={{ textDecoration: "none" }}>
         <li className="home">Home</li>
+        </Link>
         <li>Features</li>
         <li>Lifestyle</li>
         <li>Travel</li>

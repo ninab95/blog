@@ -1,12 +1,11 @@
 import React from "react";
+import Logo from './Logo';
 import "./Slides.scss";
 
 function Slides() {
   return (
     <div className="main-container">
-      <div className="logo">
-        <img src={require("../../img/logo.png")} alt="logo" />
-      </div>
+      <Logo />
       <div className="slides-container">
         <div className="overlay">
           <li>Travel</li>
