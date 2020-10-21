@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "./Header.scss";
 
 function Header() {
+  const [isMenuOpened, setMenuOpened] = useState(false);
   return (
     <div className="container">
-      <div className="nav-links">
+      <div onClick={() => setMenuOpened(true)} className="bars-wrapper">
+        <div className="line-first"></div>
+          <div className="line-second"></div>
+          <div className="line-third"></div>
+      </div>
+      <div onClick={() => setMenuOpened(false)} className={`nav-links ${isMenuOpened && "opened"}`}>
         <Link to="/" style={{ textDecoration: "none" }}>
         <li className="home">Home</li>
         </Link>

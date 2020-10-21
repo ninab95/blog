@@ -8,6 +8,21 @@ $letter-space: 1px;
   align-items: center;
   border-bottom: 2px solid #eee;
 
+  .bars-wrapper {
+    margin-top: 5px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .bars-wrapper .line-first,
+  .line-second,
+  .line-third {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+  }
+
   .nav-links {
     display: flex;
     list-style: none;
@@ -49,5 +64,38 @@ $letter-space: 1px;
     border: none;
     padding-left: 15px;
     font-style: italic;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bars-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container .nav-links {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    background: #f6f6f6;
+    padding: 20px 0 20px 20px;
+    margin-top: 60px;
+  }
+
+  .nav-links.opened {
+    display: block;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
   }
 }
