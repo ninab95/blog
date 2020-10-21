@@ -1,0 +1,43 @@
+.autor-info-wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+  img {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+  }
+
+  .info {
+    margin-left: 25px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  h4 {
+    text-align: left;
+    line-height: 24px;
+    color: #424242;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 8px 0 8px 0;
+  }
+
+  .social-media-icons {
+    text-align: left;
+
+    i {
+      padding-right: 7px;
+      color: #bbb;
+      font-size: 14px;
+    }
+  }
+}

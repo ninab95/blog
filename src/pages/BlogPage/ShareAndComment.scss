@@ -1,0 +1,31 @@
+.share-comment-section {
+  width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  p {
+    color: #424242;
+    font-size: 13px;
+    text-transform: unset;
+    font-style: italic;
+  }
+
+  .share-wrapper {
+    span {
+      color: #999;
+      font-size: 13px;
+      margin-right: 12px;
+    }
+
+    i {
+      color: #c69f73;
+      font-size: 15px;
+      margin-right: 9px;
+      cursor: pointer;
+    }
+  }
+}
