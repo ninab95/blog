@@ -1,0 +1,74 @@
+.post-comment {
+  width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+
+  span {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+
+  .form-wrapper {
+    text-align: left;
+    margin-top: 35px;
+
+    p {
+      font-size: 11px;
+      font-weight: 700;
+      color: #999;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 75px 0 12px 0;
+    }
+
+    .text-area {
+      margin-bottom: 20px;
+    }
+
+    .input-name,
+    .input-email {
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    label {
+      font-size: 13px;
+      font-weight: 300;
+      color: #888;
+      width: 80px;
+      display: inline-block;
+    }
+
+    input {
+      width: 25%;
+      height: 25px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    button {
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #666;
+      background-color: #eee;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      padding: 12px 25px;
+      margin-top: 30px;
+    }
+  }
+}

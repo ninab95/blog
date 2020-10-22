@@ -7,6 +7,8 @@ import BlogPost2 from './BlogPost2';
 import BlogPostTwitter from './BlogPostTwitter';
 import ShareAndComment from './ShareAndComment';
 import AutorInfo from './AutorInfo';
+import RecommendationContainer from './RecommendationContainer';
+import Comment from './Comment';
 import './Blog.scss';
 
 function Blog() {
@@ -20,6 +22,8 @@ function Blog() {
             <BlogPostTwitter />
             <ShareAndComment />
             <AutorInfo />
+            <RecommendationContainer />
+            <Comment />
         </div>
     );
 }
