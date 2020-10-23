@@ -2,8 +2,15 @@
   width: 30%;
 }
 
-// @media only screen and (max-width: 1024px) {
-//   .container-right {
-//     flex-direction: column;
-//   }
-// }
+@media only screen and (max-width: 1024px) {
+  .container-right {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-right {
+    width: 80%;
+  }
+}

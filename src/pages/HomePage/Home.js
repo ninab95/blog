@@ -4,7 +4,7 @@ import Slides from "./Slides";
 import PromoArea from "./PromoArea";
 import Content from "./Content";
 import Images from "./Images";
-import Footer from "./Footer";
+import Footer from "../../components/Footer";
 
 function Home() {
   return (

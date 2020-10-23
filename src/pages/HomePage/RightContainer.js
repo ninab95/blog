@@ -3,6 +3,7 @@ import "./RightContainer.scss";
 import Profile from "./Profile";
 import NewsletterContainer from "./NewsletterContainer";
 import Categories from "./Categories";
+import InstagramContainer from './InstagramContainer';
 import Facebook from "./Facebook";
 import Tags from "./Tags";
 
@@ -12,6 +13,7 @@ function RightContainer() {
       <Profile />
       <NewsletterContainer />
       <Categories />
+      <InstagramContainer />
       <Facebook />
       <Tags />
     </div>

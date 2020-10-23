@@ -22,14 +22,14 @@ function NewsletterContainer() {
   ];
   return (
     <div className="wrapper-main">
-      <button>Must-read articles</button>
+      <button className="button-article">Must-read articles</button>
       {newsletters.map((newsletter, key) => {
         return <Newsletter key={key} newsletter={newsletter} />;
       })}
       <div className="subscribe-wrap">
         <h3>Subscribe to my Newsletter</h3>
         <input type="text" placeholder="YOUR EMAIL ADDRESS" />
-        <button>Subscribe</button>
+        <button className="button-subscribe">Subscribe</button>
       </div>
     </div>
   );

@@ -9,6 +9,8 @@ import ShareAndComment from './ShareAndComment';
 import AutorInfo from './AutorInfo';
 import RecommendationContainer from './RecommendationContainer';
 import Comment from './Comment';
+import Images from '../HomePage/Images';
+import Footer from '../../components/Footer';
 import './Blog.scss';
 
 function Blog() {
@@ -24,6 +26,8 @@ function Blog() {
             <AutorInfo />
             <RecommendationContainer />
             <Comment />
+            <Images />
+            <Footer />
         </div>
     );
 }

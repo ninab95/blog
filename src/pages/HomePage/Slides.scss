@@ -56,3 +56,34 @@
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .slides-container {
+    height: 400px;
+
+    .overlay {
+      width: 60%;
+
+      li {
+        font-size: 9px;
+        margin-top: 30px;
+      }
+
+      h3 {
+        font-size: 18px;
+        margin: 12px 0;
+      }
+
+      p {
+        font-size: 9px;
+      }
+
+      button {
+        font-size: 12px;
+        padding: 8px 23px;
+        margin-top: 6px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

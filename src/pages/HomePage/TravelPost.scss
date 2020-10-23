@@ -57,6 +57,7 @@
   .comments-share {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     p {
       color: #424242;
@@ -77,6 +78,48 @@
         font-size: 15px;
         margin-right: 9px;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .travel-container {
+    p {
+      font-size: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+
+    .date {
+      font-size: 9px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 12px;
+    }
+
+    button {
+      padding: 8px 20px;
+      font-size: 12px;
+    }
+
+    .comments-share {
+      p {
+        font-size: 11px;
+      }
+
+      .share-section {
+        span {
+          font-size: 11px;
+        }
+
+        i {
+          font-size: 12px;
+        }
       }
     }
   }

@@ -95,7 +95,20 @@ $letter-space: 1px;
 }
 
 @media (max-width: 767px) {
-  .nav-links {
-    display: none;
+  .container {
+    margin: 0 auto;
+
+    .bars-wrapper {
+      width: 20px;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .nav-icons i {
+      padding-right: 10px;
+      font-size: 10px;
+    }
   }
 }

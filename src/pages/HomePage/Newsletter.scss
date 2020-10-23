@@ -1,7 +1,7 @@
 .wrapper-main {
   margin: 60px 0 0 40px;
   width: 100%;
-  button {
+  .button-article {
     font-size: 14px;
     font-family: "Playfair Display", serif;
     text-transform: uppercase;
@@ -36,16 +36,14 @@
   }
 }
 
-.subscribe-wrap {
-  button {
-    background-color: black;
-    border: 1px solid black;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 12px;
-    padding: 7px 63px;
-    width: unset;
-  }
+.button-subscribe {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 7px 63px;
+  width: unset;
 }
 
 .news-wrapper {
@@ -70,5 +68,11 @@
       font-style: italic;
       color: #999;
     }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper-main {
+    margin: unset;
   }
 }
