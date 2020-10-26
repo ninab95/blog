@@ -1,6 +1,7 @@
 .footer-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-bottom: 10px;
   p {
     color: #999;
@@ -9,5 +10,12 @@
   }
   span {
     color: #c69f73;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-container {
+    width: 80%;
+    margin: 0 auto;
   }
 }

@@ -96,6 +96,7 @@ $letter-space: 1px;
 
 @media (max-width: 767px) {
   .container {
+    width: 100%;
     margin: 0 auto;
 
     .bars-wrapper {
@@ -104,6 +105,11 @@ $letter-space: 1px;
 
     .nav-links {
       display: none;
+    }
+
+    .nav-links.opened {
+      display: block;
+      margin-top: 80px;
     }
 
     .nav-icons i {

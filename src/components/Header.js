@@ -19,7 +19,9 @@ function Header() {
         <li>Lifestyle</li>
         <li>Travel</li>
         <li>Shop</li>
-        <li>About me</li>
+        <Link to="/about" style={{ textDecoration: "none" }}>
+        <li className="about">About me</li>
+        </Link>
         <li>Contact</li>
       </div>
       <div className="nav-icons">

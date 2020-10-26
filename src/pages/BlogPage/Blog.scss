@@ -1,7 +1,13 @@
 .blog-wrapper {
   .logo {
+    width: 80%;
+    margin: 0 auto;
     margin-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     border-bottom: 1px solid #eee;
+
+    img {
+      width: 50%;
+    }
   }
 }

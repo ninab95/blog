@@ -8,6 +8,7 @@ function Recommendation(props) {
     <p>{props.info.title}</p>
     <p className="paragraph-date">{props.info.date}</p>
                 </div>
+                
         
     );
 }

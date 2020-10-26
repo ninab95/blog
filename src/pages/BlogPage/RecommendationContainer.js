@@ -5,18 +5,18 @@ import './Recommendation.scss';
 function RecommendationContainer() {
     const infos = [
         {
-            urlPic: "post4.jpg",
+            urlPic: "post4-520x400.jpg",
             title: "Snowy Mountains",
             date: "March 7,2015",
         }, 
         
         {
-            urlPic: "druga.jpg",
+            urlPic: "post9-520x400.jpg",
             title: "My Trip to New York",
             date: "March 8,2015",
         },
         {
-            urlPic: "prva.jpg",
+            urlPic: "gal1-520x400.jpg",
             title: "Explore the Pacific Northwest",
             date: "March 9,2015",
         },
