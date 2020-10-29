@@ -1,0 +1,19 @@
+.left-side {
+  width: 70%;
+
+  .share-comment-section {
+    width: 100%;
+  }
+
+  .share-wrapper {
+    margin: 50px 0 5px 0;
+    width: 100%;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .left-side {
+    width: 100%;
+  }
+}

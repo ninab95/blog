@@ -22,7 +22,9 @@ function Header() {
         <Link to="/about" style={{ textDecoration: "none" }}>
         <li className="about">About me</li>
         </Link>
+        <Link to="/contact" style={{ textDecoration: "none"}}>
         <li>Contact</li>
+        </Link>
       </div>
       <div className="nav-icons">
         <i className="fab fa-facebook-f"></i>

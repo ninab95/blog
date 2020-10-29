@@ -26,6 +26,11 @@ $letter-space: 1px;
   .nav-links {
     display: flex;
     list-style: none;
+
+    a,
+    li {
+      color: black;
+    }
   }
   .home {
     color: #c69f73;

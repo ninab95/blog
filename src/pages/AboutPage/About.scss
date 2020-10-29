@@ -1,11 +1,7 @@
 .about-page-wrapper {
   .container {
-    .home {
-      color: #000000;
-    }
-
-    .about {
-      color: #c69f73;
+    li .home {
+      color: black;
     }
   }
 
@@ -19,5 +15,15 @@
     img {
       width: 40%;
     }
+  }
+
+  .share-comment-section {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+
+  .share-wrapper {
+    width: 100%;
+    text-align: right;
   }
 }

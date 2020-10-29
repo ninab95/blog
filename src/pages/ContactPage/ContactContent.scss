@@ -1,0 +1,11 @@
+.content-2-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1024px) {
+  .content-2-wrapper {
+    flex-direction: column;
+  }
+}
