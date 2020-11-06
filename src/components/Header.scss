@@ -30,11 +30,13 @@ $letter-space: 1px;
     a,
     li {
       color: black;
+
+      &.active {
+        color: #c69f73;
+      }
     }
   }
-  .home {
-    color: #c69f73;
-  }
+
   li {
     padding-right: 25px;
     font-size: $font-size;
